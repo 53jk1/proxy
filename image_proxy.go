@@ -1,7 +1,6 @@
 package proxy
 
-// The ImageProxy has the same interface as the Image.
-// The ImageProxy delegates all operations to the Image.
+// ImageProxyInterface The ImageProxy has the same interface as the Image.
 type ImageProxyInterface interface {
 	Load(filename string)
 	HandleMouse(event *MouseEvent)
